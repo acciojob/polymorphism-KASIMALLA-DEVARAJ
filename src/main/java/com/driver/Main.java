@@ -9,11 +9,11 @@ public class Main {
 
 
         public int product(int x, int y, int z) {
-            return x+y+z;
+            return x*y*z;
         }
 
         public double product(double x, double y) {
-            return x+y;
+            return x*y;
         }
     }
 
@@ -21,7 +21,7 @@ public class Main {
         Product p = new Product();
         System.out.println(p.product(4,5));
         System.out.println(p.product(4,5,6));
-        System.out.println(p.product(4.5,7.5));
+        System.out.println(p.product(4.597,7.577));
 
     }
 
